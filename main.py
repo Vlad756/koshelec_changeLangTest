@@ -31,7 +31,7 @@ class ChangeLang(unittest.TestCase):
         lang = self.driver.find_element_by_link_text('Deutsch')
         lang.click()
         time.sleep(5)
-        # проверяем, поменялся ли язык на заданный
+        # проверяем поменялся ли язык на заданный
         assert 'Top 100 Kryptowährungen nach Börsenwert' in self.driver.page_source
 
     def test_English(self):
