@@ -9,7 +9,7 @@ Test for switching languages
    3) python -m unittest -v main (С помощью флага -v можно получить более детальный отчёт)
    4) python main.py
 
-Доступные методы класса теста: test_German, test_English, test_Spanish, test_Filipino, test_French, test_Arab, test_Italian, test_Japan, test_Korean, test_Portuguese, test_Russian, test_Turkish, test_Vietnamese, test_China1, test_China2.
+Доступные методы класса тест кейса: test_German, test_English, test_Spanish, test_Filipino, test_French, test_Arab, test_Italian, test_Japan, test_Korean, test_Portuguese, test_Russian, test_Turkish, test_Vietnamese, test_China1, test_China2.
 
 В коде присутствуют разъяснительные комментарии в функции test_German. Функции одинаковы по своей структуре. Различия только в элементах.
 
@@ -18,7 +18,15 @@ Test for switching languages
 ## Отчет
 Был создан тест кейс с функциями для каждого доступного языка.
 Поведение функций:
-   1) Нахождение и нажимание кнопки для выбора языка, которая находится справа в верхнем углу(если ее нет из-за того, что окно браузера открыто не полностью и не отображаются все элементы, то нахождение меню, а затем кнопки выбора языка);
+   1) Нахождение и нажимание кнопки для выбора языка, которая находится справа в верхнем углу (если ее нет из-за того, что окно браузера открыто не полностью и не отображаются все элементы, то нахождение меню, а затем кнопки выбора языка);
+   ![1](https://user-images.githubusercontent.com/64403999/85933868-7c8ea980-b8e4-11ea-83fe-ca61a33ae064.png)
+   ![2](https://user-images.githubusercontent.com/64403999/85933869-7d274000-b8e4-11ea-9455-04341e594881.png)
    2) Нахождение и нажатие ссылки на заданный язык;
+   ![3](https://user-images.githubusercontent.com/64403999/85933864-7a2c4f80-b8e4-11ea-990c-f69240b20392.png)
    3) Ожидание, пока страница прогрузится;
    4) Проверка присутствия текста на заданном языке.
+   ![4](https://user-images.githubusercontent.com/64403999/85933865-7b5d7c80-b8e4-11ea-9e25-6fa834534ac7.png)
+   ![5](https://user-images.githubusercontent.com/64403999/85933866-7bf61300-b8e4-11ea-8405-d9dcd828d46a.png)
+   
+Можно запустить все тесты сразу:
+![6](https://user-images.githubusercontent.com/64403999/85933867-7c8ea980-b8e4-11ea-9173-a718c6366337.png)
